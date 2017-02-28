@@ -1,0 +1,44 @@
+{
+	"metadata": {
+		"version": 4.4,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "BDCB8C22-8723-4A24-B970-0073E889BE75",
+			"type": "BoxBufferGeometry",
+			"width": 20,
+			"height": 1,
+			"depth": 30,
+			"widthSegments": 0,
+			"heightSegments": 0,
+			"depthSegments": 0
+		}],
+	"materials": [
+		{
+			"uuid": "2A38813E-F956-453D-9447-28D1762D1658",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 11579568,
+			"map": "BE3E38E4-8BC4-4607-847C-033B6003AE70",
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"skinning": false,
+			"morphTargets": false,
+			"mapDiffuse" : "images/wood-table-texture-seamless-tileable-wood-texture---home-decorating-ideas-picture.jpg"
+
+		}],
+			
+	"object": {
+		"uuid": "2783B8EB-8965-47D3-BE5F-20FF576D9E93",
+		"type": "Mesh",
+		"name": "Box 1",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,-0.5,0,1],
+		"geometry": "BDCB8C22-8723-4A24-B970-0073E889BE75",
+		"material": "2A38813E-F956-453D-9447-28D1762D1658"
+	}
+}

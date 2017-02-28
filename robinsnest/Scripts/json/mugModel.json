@@ -1,0 +1,79 @@
+{
+	"metadata": {
+		"version": 4.4,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "C8ADBE55-56E8-4F74-8CC9-8B3D547B9A7D",
+			"type": "LatheBufferGeometry",
+			"points": [
+				{
+					"x": 0,
+					"y": 0
+				},
+				{
+					"x": 14.75,
+					"y": 0
+				},
+				{
+					"x": 15,
+					"y": 5
+				},
+				{
+					"x": 15,
+					"y": 30
+				},
+				{
+					"x": 14.75,
+					"y": 35
+				}],
+			"segments": 20,
+			"phiStart": 0.017453,
+			"phiLength": 6.283185
+		},
+		{
+			"uuid": "69566DA7-60DB-45AE-A967-E579F04FF541",
+			"type": "TorusBufferGeometry",
+			"radius": 13.2,
+			"tube": 1,
+			"radialSegments": 39,
+			"tubularSegments": 60,
+			"arc": 3.14
+		}],
+	"materials": [
+		{
+			"uuid": "2F7DC446-0DD5-42E3-88CC-C4BD6BC6CC60",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 16777215,
+			"side": 2,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"wireframeLinewidth": 100,
+			"skinning": false,
+			"morphTargets": false
+		}],
+	"object": {
+		"uuid": "EC91FE0A-2C45-473C-A8D3-5267F33D611C",
+		"type": "Mesh",
+		"name": "Lathe 1",
+		"receiveShadow": true,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"geometry": "C8ADBE55-56E8-4F74-8CC9-8B3D547B9A7D",
+		"material": "2F7DC446-0DD5-42E3-88CC-C4BD6BC6CC60",
+		"children": [
+			{
+				"uuid": "F9CD6C68-2959-42A1-8819-C7DFF98724F8",
+				"type": "Mesh",
+				"name": "Torus 1",
+				"matrix": [0,-1,0,0,1,0,0,0,0,0,1,0,15,14.79113,0,1],
+				"geometry": "69566DA7-60DB-45AE-A967-E579F04FF541",
+				"material": "2F7DC446-0DD5-42E3-88CC-C4BD6BC6CC60"
+			}]
+	}
+}
